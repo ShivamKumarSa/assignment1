@@ -1,0 +1,128 @@
+*{box-sizing: border-box;}
+body{margin: 0;padding: 0;font-family: 'Raleway',  sans-serif;background-color: #f0f0f0;}
+h2,h3{font-weight: normal;}
+::placeholder{ font-weight: normal; }
+
+.navbar {display: flex;flex-wrap: nowrap;justify-content: space-between;background-color: white;}
+.navbar > div > a{ text-decoration: none;display: block;text-align: center;padding: 11px 16px;font-size: 18px;color: black; }
+
+.navbarflex{ display: flex;flex-wrap: nowrap;justify-content: flex-start;background-color: white; }
+.navbarflex > div > a{ text-decoration: none;display: block;text-align: center;padding: 11px 16px;font-size: 18px;}
+
+
+.navItemRed{ background-color: #f44336;color: white;  }
+.navItem{ color: black; }
+.navItemGrey{ background-color: #f0f0f0; }
+.navbarflex > div > a:hover{ background-color: #d0d0d0; color: black; }
+.navbar > div > a:hover{ background-color: #d0d0d0; color: black; }
+
+
+#desktop-image{ width: 100%; height: auto;position: relative; }
+.form-box{float: left;display: block;position: absolute;top: 37.25%;left: 16px;width: 47.6%;}
+.form-heading{background-color: #f44336;color: white;padding: 15px 16px; font-size: 30px;}		
+.form-data{background-color: #fff;color: black;font-size: 15px;display: grid;grid-template-columns: auto auto ;
+ grid-row-gap: 5px;grid-column-gap:17px;padding: 18px 17px;}
+.form-data > div > input[type=number] {width: 100%;padding: 8px;border: 1px solid #d0d0d0;
+	margin-bottom: 23px;font-size: 16px;}
+.form-data > div > input[type=text] {width: 100%;padding: 10px;border: 1px solid #d0d0d0;
+	margin-bottom: 25px;margin-top: 2px;font-size: 16px;}
+.form-data > div > button{cursor: pointer;font-weight: normal;color: white;background-color: #606060;
+	border-width: 0px;font-size: 16px;padding: 10px 15px;}
+.form-data > div > button:hover {color: black;background-color: #c0c0c0;}
+
+
+.rooms{margin:0px 14px;}
+.rooms > h2{ font-weight: normal; }
+.rooms-form{ display: flex;flex-wrap: nowrap;align-items: stretch; margin: 0px 7px;}
+.rooms-form > div{ margin: 0px 7px;}
+.rooms-form > div > input[type=text]{ 	width: 100%;padding: 8px;border: 1px solid #d0d0d0;
+	font-size: 15px; margin-top: 3px;font-weight: normal;}
+.rooms-form > div > input[type=number]{ 	font-weight: normal;width: 100%;padding: 8px;border: 1px solid #d0d0d0;
+	font-size: 15px;margin-top: 3px; }
+.rooms-form > div > button{ width: 100%;cursor: pointer;color: white;background-color: black;padding: 9px 1%;
+	border-width: 0px;font-size: 15px;margin-top: 3px; }
+.rooms-form > div > button:hover{ color: black;background-color: #c0c0c0; }
+
+
+
+.flex-container{ display: flex;flex-wrap: nowrap;margin: 15px 7px 0px 7px; }
+.flex-container > div{ background-color: white;width: 33%;flex: 33%;margin:0px 8px; }
+.flex-container > div > img{ width: 100%; }
+.flex-container > div > div{ padding: 15px; }
+.flex-container > div > div > h2{ font-weight: normal;margin-top: 0; }
+.flex-container > div > div > button{ cursor: pointer;color: white;background-color: black;padding: 9px 50px;
+	border-width: 0px;font-size: 16px;width: 100%;margin-bottom: 5px; }
+.flex-container > div > div > button:hover{ color: black;background-color: #c0c0c0; }
+
+
+.about-box{ display: inline-block;margin: 30px 15px 0px 15px; }
+.about-box > div{ max-width: 33%;float: left;padding-right: 9px; }
+.about-box > img { max-width: 66%;filter: grayscale(75%); }
+.about-icon{ display: flex;flex-wrap: nowrap;text-align: center;margin: 30px 60px;justify-content: space-around; }
+.about-icon > div{flex: 33%;}
+.about-icon > div > i{ color: #f44336; }
+.red-box{background-color: #f44336; color: white;padding: 30px 20px;margin: 30px 5px;font-size: 16px;}
+.red-box > p > i{ background-color: #ff5722;color: white;padding: 7px 16px; }
+
+
+.image-gallery{margin: 30px 15px 60px 15px; background-size: contain;}
+.image-gallery > div{ display: grid;grid-template-columns: auto auto auto auto; grid-row-gap: 10px;grid-column-gap: 15px; }
+.image-gallery > div > div { position: relative; }
+#image-gallery-item1{ grid-row-start: 1;grid-row-end: 3;grid-column-start: 1;grid-column-end: 3; }
+.image-gallery > div > div > img{ width: 100%; }
+.image-gallery > div > div > div{ position: absolute;bottom: 0;left: 0;color: white;padding: 20px;font-size: 20px; }
+
+
+.subscribe-box{background-color: black;color: white;opacity: 0.6;padding: 5px 15px;}
+.subscribe-box:hover{opacity: 1;}
+.subscribe-box > h2{ font-size: 30px;}
+.subscribe-box > p{ letter-spacing: -1px; }
+.subscribe-form > input[type=text]{ margin-bottom: 15px;width: 100%;padding: 10px 8px; }
+.subscribe-form > button{ background-color: #f44336;padding: 9px 15px;border-width: 0px;color: white; margin-bottom: 15px;font-size: 15px;}
+
+
+.contact-box{ margin: 0px 15px; font-size: 15px;line-height: 1.5; }
+.contact-box > h2{font-weight: normal;font-size: 30px;margin-bottom: 0px;}
+.contact-box > span > i { color: #f44336; }
+.contact-form{ margin-top: 15px; }
+.contact-form > input[type=text] { padding:  18px 8px; margin-bottom: 15px;color:#c0c0c0;width: 100%;font-size: 15px;border:1px solid  lightgrey; }
+.contact-form > button{ 	cursor: pointer;color: white;background-color: black;
+	border-width: 0px;font-size: 15px;padding: 15px 23px;margin-bottom: 30px; }
+.contact-form > button:hover{ color: black;background-color: #c0c0c0; }	
+
+
+.footer-box{ background-color: black;text-align: center;color: white;padding:25px;  }
+.footer-box>p{ padding-bottom: 15px; }
+#footer-symbols{ font-size: 23px; }
+#footer-symbols>i:hover{ color: gray;  }
+#footer-link{
+	text-decoration: none;text-decoration: underline;color: white;
+}
+#footer-link:hover{ color: green; }
+
+@media screen and (max-width: 991px){
+	#desktop-image{ width: 1000px; }
+	.about-box{ display: block; }
+	.about-box > div{ max-width: 100%; }
+	.about-box > img{ max-width: 100%; margin-left: 0px; margin-bottom: 10px;}
+	.form-box{ width: 63%;top: 35%; }
+	body{overflow-x: hidden;}
+}
+
+@media screen and (max-width: 600px){
+
+	.form-box{ width: 94%;top: 98.5%; }
+	.form-data{ display: block; }
+	.rooms-form{ display: block; }
+
+	.flex-container{display: block;}
+	.flex-container > div{ width: 97%;margin-bottom: 20px; }
+
+	.about-icon{ display: block; }
+	.image-gallery > div{ display: block; } 
+	.image-gallery > div > div {margin-bottom: 20px;}
+	.navbarflex{display: block;}
+	.navbar{ display: block;}
+	
+
+}
